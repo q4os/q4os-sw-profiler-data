@@ -8,7 +8,7 @@
 
 plasma-discover |:| 9.10 |:| plasmadiscover |:| Plasma Discover |:| |:| plasma;
 flatpak-extq |:| 8.93 |:| flatpak |:| Flatpak |:| Flatpak framework enables installation of large number of various desktop applications and games. |:| |:| |:| amd64;
-smplayer |:| 6.90
+smplayer |:| 6.90 |:| |:| |:| Complete multimedia player
 synaptic |:| 5.91 |:| |:| Synaptic |:| |:| plasma;
 synaptic |:| 9.19 |:| |:| Synaptic |:| |:| lxqt;xfce;lxde;mate;
 vlc |:| 5.40
@@ -26,7 +26,7 @@ midori |:| 3.22
 bleachbit |:| 3.20
 rosegarden |:| 3.05
 inkscape |:| 2.76
-keepassxc-full |:| 2.61 |:| |:| |:| |:| |:| trixie;forky;noble;resolute;
+keepassxc-full |:| 2.61 |:| keepassxc |:| Keepassxc |:| |:| |:| trixie;forky;noble;resolute;
 keepassxc |:| 2.61 |:| |:| |:| |:| |:| bullseye;bookworm;jammy;raspbian12;
 notepadqq |:| 2.55
 gufw |:| 2.42 |:| |:| |:| Netfilter firewall |:| trinity;lxqt;xfce;lxde;mate;cinnamon;gnome;
