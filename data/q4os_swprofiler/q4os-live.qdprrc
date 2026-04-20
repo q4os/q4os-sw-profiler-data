@@ -1,0 +1,15 @@
+[General]
+name_profile=q4os-live
+name_apd=Q4OS Live
+icon=iconswpr-live.png
+rating=5.00
+description_short=Special profile for live media.
+description=Special profile for live media.
+description_calamares="For those who want a system identical to the live media.","No additional software will be installed now, the live media environment will only be cloned into the target system. The most simple and quick installation way.","Live installer and related packages will be removed, no additional software will be installed."
+hwreq=0
+need_sse2=0
+profile_parent=
+script_pret=
+script_post=
+distributions=none;
+architectures=none;

@@ -1,0 +1,123 @@
+[General]
+name_profile=q4os-basic-bookworm
+name_apd=Q4OS Basic
+icon=iconswpr-basic.png
+rating=6.00
+description_short=The Basic Q4OS Desktop with common utilities, system tools and libraries.
+description=Starting configuration for users who want to install desktop applications of their choice. Lightweight slim desktop with common utilities, system tools and libraries.
+description_calamares="For users who prefer a customizable desktop.","The Basic Q4OS Desktop with common utilities, system tools and libraries, lightweight and slim. Starting configuration for users who want to install desktop applications of their choice.","Install process could take a while, as the installer needs to perform an extra configuration and cleanup."
+hwreq=400
+need_sse2=0
+profile_parent=
+packages_base= \
+ iamerican::all::all::en wamerican::all::all::en \
+ ibritish::all::all::en wbritish::all::all::en \
+ ibulgarian::all::all::bg wbulgarian::all::all::bg \
+ idanish::all::all::da wdanish::all::all::da \
+ idutch::all::all::nl wdutch::all::all::nl \
+ iesperanto::all::all::eo wesperanto::all::all::eo \
+ ispanish::all::all::es wspanish::all::all::es \
+ ingerman::all::all::de wngerman::all::all::de wgerman-medical::all::all::de \
+ igaelic::all::all::gd wgaelic::all::all::gd \
+ iirish::all::all::ga wirish::all::all::ga \
+ iitalian::all::all::it witalian::all::all::it \
+ imanx::all::all::gv wmanx::all::all::gv \
+ ipolish::all::all::pl wpolish::all::all::pl \
+ iczech::all::all::cs \
+ iestonian::all::all::et \
+ ifaroese::all::all::fo wfaroese::all::all::fo \
+ itagalog::all::all::tl \
+ iukrainian::all::all::uk wukrainian::all::all::uk \
+ iportuguese::all::all::pt wportuguese::all::all::pt \
+ ibrazilian::all::all::pt wbrazilian::all::all::pt brazilian-conjugate::all::all::pt \
+ ihungarian::all::all::hu \
+ inorwegian::all::all::no wnorwegian::all::all::no \
+ irussian::all::all::ru \
+ icatalan::all::all::ca wcatalan::all::all::ca \
+ iswedish::all::all::sv wswedish::all::all::sv \
+ ifrench::all::all::fr wfrench::all::all::fr \
+ fonts-thai-tlwg::all::all::th \
+ fonts-indic::all::all::bn,gu,pa,kn,ml,or,ta.te \
+ fonts-noto-cjk::all::all::ja,zh,ko,th,ar,he \
+ fonts-dejavu \
+ fcitx5::all::all::ja,zh,ko fcitx5-hangul::all::all::ko fcitx5-mozc::all::all::ja fcitx5-chewing::all::all::zh \
+ lsof rsync bzip2 zip unzip unrar-free p7zip-full pigz kbd console-setup iproute2 hdparm udisks2 dosfstools mtools \
+ ntfs-3g exfatprogs eject gdisk xfonts-utils rfkill wireless-tools cpuid \
+ bind9-dnsutils ::disable__hddtemp tree powertop usbutils pcmciautils keyutils curl discover \
+ nftables avahi-daemon avahi-autoipd avahi-utils \
+ bluetooth bluez-obexd bluez-cups \
+ pulseaudio pulseaudio-module-bluetooth \
+ cups cups-bsd cups-pk-helper printer-driver-all openprinting-ppds hplip system-config-printer-udev \
+ samba-common samba-dsdb-modules samba-vfs-modules cifs-utils alsa-utils \
+ gtk2-engines read-edid vdpauinfo clinfo \
+ libvdpau-va-gl1 mesa-utils mesa-va-drivers mesa-vdpau-drivers va-driver-all mesa-vulkan-drivers vulkan-tools vulkan-validationlayers \
+ i965-va-driver-shaders::amd64,i386 intel-media-va-driver-non-free::amd64,i386 \
+ ffmpeg libao4 twolame libaacs0 libfaad2 libmp3lame0 libdvdnav4 libdvdread8 libbluray2 libopencore-amrwb0 libopencore-amrnb0 \
+ gstreamer1.0-gl gstreamer1.0-libav \
+ gstreamer1.0-x gstreamer1.0-plugins-base gstreamer1.0-plugins-good ::disable__gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly \
+ ::disable__linux-headers-##subst_unamer##::amd64,i386 \
+ libfaac0
+
+
+
+
+
+
+
+
+packages_laptop=tdepowersave-trinity::all::trinity
+packages_crypt=keyutils cryptsetup cryptsetup-bin cryptsetup-initramfs
+packages_qemuguest=qemu-guest-agent::amd64,i386
+
+packages_base_trinity=q4os-desktop-trinity q4os-wallpapers \
+ oxygen-icon-theme pinentry-tqt \
+ libarts1-audiofile-trinity libarts1-mpeglib-trinity tdebase-tdeio-smb-trinity \
+ kcalc-trinity kamera-trinity tdewalletmanager-trinity tde-i18n-##subst_lcode##-trinity \
+ tdeadmin-tdefile-plugins-trinity tdeaddons-tdefile-plugins-trinity \
+ tdemultimedia-tdefile-plugins-trinity tdenetwork-tdefile-plugins-trinity \
+ tdegraphics-tdefile-plugins-trinity kate-plugins-trinity
+
+
+
+
+
+
+packages_base_plasma=q4os-desktop-plasma dolphin kwrite \
+ pinentry-qt print-manager sweeper kde-spectacle kmag ark kcalc debconf-kde-helper \
+ plasma-thunderbolt kamera
+
+
+
+
+
+
+packages_base_lxqt=q4os-desktop-lxqt nm-tray
+packages_base_xfce=xfce4 xfce4-whiskermenu-plugin policykit-1-gnome network-manager-gnome
+packages_base_lxde=lxde network-manager-gnome
+packages_base_mate=mate-desktop-environment-core mate-desktop-environment-extras network-manager-gnome
+packages_base_budgie=q4os-desktop-budgie network-manager-gnome
+packages_base_cinnamon=evince eog gedit gedit-plugins gnome-calculator gnome-screenshot gnome-terminal \
+ xdg-user-dirs-gtk gnome-system-monitor gnome-user-share simple-scan network-manager-gnome \
+ cinnamon cinnamon-core cinnamon-l10n
+
+packages_base_gnome=evince eog gedit gedit-plugins gnome-calculator gnome-screenshot gnome-terminal \
+ xdg-user-dirs-gtk gnome-system-monitor gnome-user-share simple-scan network-manager-gnome \
+ gnome-core gnome-music gnome-sound-recorder gnome-color-manager
+
+packages_base_amd64=
+packages_base_i386=
+packages_base_arm64=
+packages_base_armhf=
+packages_esh=
+;packages_esh_vboxguest=virtualbox-guest-extq::amd64
+packages_esh_amd64=
+packages_esh_i386=
+packages_esh_arm64=
+packages_esh_armhf=
+;in_lheaders=1
+;in_libci686=1
+;script_pret=
+;script_post=
+distributions=bookworm;
+;desktops=all;
+architectures=amd64;i386;arm64;armhf;

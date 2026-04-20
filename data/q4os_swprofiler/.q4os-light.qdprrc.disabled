@@ -1,0 +1,21 @@
+[General]
+name_profile=q4os-light
+name_apd=Q4OS Light
+icon=iconswpr-light.png
+rating=4.00
+description_short=Q4OS Light.
+description=Light desktop profile for older, less powerful computers includes Trinity applications.
+hwreq=500
+need_sse2=1
+profile_parent=q4os-basic-bullseye
+packages_base=
+packages_laptop=
+packages_amd64=
+packages_i386=
+packages_esh=
+in_lheaders=1
+in_libci686=1
+script_pret=
+script_post=
+distributions=bullseye;
+architectures=all;
