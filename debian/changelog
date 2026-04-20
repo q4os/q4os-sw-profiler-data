@@ -1,8 +1,8 @@
 q4os-sw-profiler-data (4.28.1-a1) UNRELEASED; urgency=medium
 
   * Initial commit
-  * Initial commit
   * Replace q4os-vlc with smplayer
   * Update package version
+  * Move to debhelper build framework
 
- -- Q4OS Team <devteam@q4os.org>  Mon, 20 Apr 2026 12:10:21 +0200
+ -- Q4OS Team <devteam@q4os.org>  Mon, 20 Apr 2026 12:11:07 +0200
