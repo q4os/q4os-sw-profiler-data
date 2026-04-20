@@ -98,7 +98,8 @@ packages_base_plasma=q4os-desktop-plasma dolphin kwrite \
  k3b kcharselect krusader gwenview \
  plasma-widgets-addons plasma-dataengines-addons konq-plugins plasma-browser-integration fcitx5-config-qt::all::all::ja,zh \
  plasma-runners-addons ffmpegthumbs skanlite okular konversation krdc ktorrent kdeconnect \
- plasma-workspace-wallpapers kio-fuse kio-admin
+ plasma-workspace-wallpapers kio-fuse kio-admin \
+ libreoffice-plasma
 
 
 

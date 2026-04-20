@@ -93,11 +93,13 @@ packages_base_trinity=q4os-desktop-trinity q4os-wallpapers \
 packages_base_plasma=q4os-desktop-plasma dolphin kwrite \
  pinentry-qt print-manager sweeper kde-spectacle kmag ark kcalc debconf-kde-helper \
  plasma-thunderbolt kamera \
+ \
  plasma-discover plasma-discover-backend-flatpak::amd64 xdg-desktop-portal-kde::amd64 \
  k3b kcharselect krusader gwenview \
  plasma-widgets-addons plasma-dataengines-addons konq-plugins plasma-browser-integration fcitx5-config-qt::all::all::ja,zh \
  plasma-runners-addons ffmpegthumbs skanlite okular konversation krdc ktorrent kdeconnect \
- plasma-workspace-wallpapers
+ plasma-workspace-wallpapers \
+ libreoffice-plasma
 
 
 

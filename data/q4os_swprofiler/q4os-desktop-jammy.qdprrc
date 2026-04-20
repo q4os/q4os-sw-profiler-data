@@ -105,7 +105,7 @@ packages_base_plasma=q4os-desktop-plasma dolphin kwrite \
  k3b kcharselect krusader gwenview \
  plasma-widgets-addons konq-plugins plasma-browser-integration fcitx5-config-qt::all::all::ja,zh \
  plasma-runners-addons ffmpegthumbs skanlite okular konversation krdc ktorrent kdeconnect ksystemlog \
- language-pack-kde-##subst_lcode## libreoffice-kf5 libreoffice-plasma \
+ language-pack-kde-##subst_lcode## libreoffice-plasma \
  kubuntu-restricted-addons kubuntu-wallpapers \
  plasma-workspace-wallpapers \
  plasma-discover-backend-snap::amd64
