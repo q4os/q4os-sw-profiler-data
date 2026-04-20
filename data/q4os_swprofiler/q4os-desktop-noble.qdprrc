@@ -72,7 +72,7 @@ packages_base= \
  flatpak-extq::amd64 software-properties-common \
  gufw::all::[!]plasma \
  qbittorrent::all::[!]plasma \
- aisleriot strawberry::all::[!]trinity smtube synaptic::all::[!]plasma \
+ aisleriot strawberry::all::[!]trinity ::disable__smtube synaptic::all::[!]plasma \
  q4os-imager \
  smplayer mpv \
  q4os-libreoffice libreoffice-l10n-##subst_lcode## libreoffice-help-##subst_lcode## \
