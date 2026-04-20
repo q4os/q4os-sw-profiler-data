@@ -116,7 +116,8 @@ packages_base_cinnamon=evince eog gedit gedit-plugins gnome-calculator gnome-scr
 packages_base_gnome=evince eog gedit gedit-plugins gnome-calculator gnome-screenshot gnome-terminal \
  xdg-user-dirs-gtk gnome-system-monitor gnome-user-share simple-scan network-manager-gnome \
  gnome-core gnome-music gnome-sound-recorder gnome-color-manager \
- gdebi gnome-games gnome-photos gnome-software-plugin-flatpak::amd64 gnome-software
+ gdebi gnome-games gnome-photos gnome-software-plugin-flatpak::amd64 gnome-software \
+ libreoffice-gnome
 packages_base_amd64=
 packages_base_i386=
 packages_base_arm64=

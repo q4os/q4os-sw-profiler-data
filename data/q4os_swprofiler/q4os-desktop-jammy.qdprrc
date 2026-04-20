@@ -116,7 +116,8 @@ packages_base_lxde=lxde
 packages_base_mate=mate-desktop-environment-core
 packages_base_budgie=q4os-desktop-budgie
 packages_base_cinnamon=cinnamon-core gnome-software-plugin-flatpak::amd64 gnome-software
-packages_base_gnome=gnome-core gnome-software-plugin-flatpak::amd64 gnome-software
+packages_base_gnome=gnome-core gnome-software-plugin-flatpak::amd64 gnome-software \
+ libreoffice-gnome
 ;packages_base_amd64=
 ;packages_base_i386=
 ;packages_base_arm64=
