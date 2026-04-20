@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+# See debhelper(7) (uncomment to enable).
+# Output every command that modifies files on the build system.
+#export DH_VERBOSE = 1
+
+
+%:
+	dh $@
+
+
+override_dh_install:
+	dh_install
+	#todo: gettext task
+	mkdir -p debian/q4os-sw-profiler-data/usr/share/apps/q4os_system
+	rsync -a data/* debian/q4os-sw-profiler-data/usr/share/apps/q4os_system/
