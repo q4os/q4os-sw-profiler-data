@@ -65,7 +65,8 @@ packages_base= \
  gufw::all::[!]plasma \
  qbittorrent::all::[!]plasma \
  aisleriot strawberry::all::[!]trinity ::disable__smtube synaptic::all::[!]plasma \
- q4os-libreoffice libreoffice-l10n-##subst_lcode## libreoffice-help-##subst_lcode## q4os-vlc \
+ smplayer mpv \
+ q4os-libreoffice libreoffice-l10n-##subst_lcode## libreoffice-help-##subst_lcode## \
  q4os-thunderbird thunderbird-l10n-##subst_lcode## \
  q4os-chromium rpi-chromium-mods \
  q4os-imager
