@@ -1,0 +1,17 @@
+Source: q4os-swcentre-data
+Section: none
+Priority: optional
+Maintainer: Q4OS Team <devteam@q4os.org>
+Build-Depends: debhelper (>= 9~), rsync
+Standards-Version: 3.8.4
+
+Package: q4os-swcentre-data
+Architecture: all
+Pre-Depends:
+Depends:
+Recommends:
+Conflicts:
+Provides:
+Replaces:
+Breaks:
+Description: Q4OS software center data
