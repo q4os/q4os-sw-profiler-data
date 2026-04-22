@@ -74,8 +74,8 @@ packages_base= \
  qbittorrent::all::[!]plasma \
  aisleriot strawberry::all::[!]trinity ::disable__smtube synaptic::all::[!]plasma \
  q4os-imager \
- smplayer mpv \
- q4os-libreoffice libreoffice-l10n-##subst_lcode## libreoffice-help-##subst_lcode## \
+ smplayer-extq mpv \
+ libreoffice-extq libreoffice-l10n-##subst_lcode## libreoffice-help-##subst_lcode## \
  thunderbird thunderbird-locale-##subst_lcode## \
  firefox firefox-locale-##subst_lcode## \
  ubuntu-restricted-addons
