@@ -1,3 +1,12 @@
+q4os-sw-profiler-data (4.29.1-a1) UNRELEASED; urgency=medium
+
+  * Disable smtube package as buggy
+  * Add libreoffice-plasma package to the full profiles
+  * Add libreoffice-gnome package to the full profiles
+  * Replace smplayer with smplayer-extq package. Add libreoffice-extq for new distros Forky, Resolute.
+
+ -- Q4OS Team <devteam@q4os.org>  Wed, 22 Apr 2026 10:59:48 +0200
+
 q4os-sw-profiler-data (4.28.1-a1) UNRELEASED; urgency=medium
 
   * Initial commit
