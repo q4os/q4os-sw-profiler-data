@@ -108,7 +108,14 @@ packages_base_xfce=xfce4 xfce4-whiskermenu-plugin policykit-1-gnome network-mana
  gnome-software-plugin-flatpak::amd64 gnome-software
 packages_base_lxde=lxde network-manager-gnome raspberrypi-ui-mods
 packages_base_mate=mate-desktop-environment-core mate-desktop-environment-extras network-manager-gnome
+
 packages_base_budgie=q4os-desktop-budgie
+ gnome-system-monitor \
+ gnome-disk-utility \
+ gnome-software \
+ fonts-dejavu \
+ pavucontrol
+
 packages_base_cinnamon=evince eog gedit gedit-plugins gnome-calculator gnome-screenshot gnome-terminal \
  xdg-user-dirs-gtk gnome-system-monitor gnome-user-share simple-scan network-manager-gnome \
  cinnamon cinnamon-core cinnamon-l10n \

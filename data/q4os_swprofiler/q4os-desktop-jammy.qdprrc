@@ -114,7 +114,14 @@ packages_base_xfce=xfce4 \
  gnome-software-plugin-flatpak::amd64 gnome-software
 packages_base_lxde=lxde
 packages_base_mate=mate-desktop-environment-core
+
 packages_base_budgie=q4os-desktop-budgie
+ gnome-system-monitor \
+ gnome-disk-utility \
+ gnome-software \
+ fonts-dejavu \
+ pavucontrol
+
 packages_base_cinnamon=cinnamon-core gnome-software-plugin-flatpak::amd64 gnome-software
 packages_base_gnome=gnome-core gnome-software-plugin-flatpak::amd64 gnome-software \
  libreoffice-gnome
