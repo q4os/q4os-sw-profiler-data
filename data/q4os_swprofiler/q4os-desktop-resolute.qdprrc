@@ -42,7 +42,7 @@ packages_base= \
  fonts-dejavu \
  fcitx5::all::all::ja,zh,ko fcitx5-hangul::all::all::ko fcitx5-mozc::all::all::ja fcitx5-chewing::all::all::zh \
  lsof rsync bzip2 zip unzip unrar-free pigz kbd console-setup iproute2 hdparm udisks2 dosfstools mtools \
- ntfs-3g exfatprogs eject gdisk xfonts-utils rfkill wireless-tools cpuid \
+ ntfs-3g exfatprogs eject gdisk xfonts-utils rfkill ::disable__wireless-tools cpuid \
  bind9-dnsutils ::disable__hddtemp tree powertop usbutils pcmciautils keyutils curl discover \
  nftables avahi-daemon avahi-autoipd avahi-utils \
  bluetooth bluez-obexd bluez-cups \
