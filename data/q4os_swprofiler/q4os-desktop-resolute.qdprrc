@@ -116,7 +116,7 @@ packages_base_xfce=xfce4 \
 packages_base_lxde=lxde
 packages_base_mate=mate-desktop-environment-core
 
-packages_base_budgie=q4os-desktop-budgie
+packages_base_budgie=q4os-desktop-budgie \
  gnome-system-monitor \
  gnome-disk-utility \
  gnome-software \

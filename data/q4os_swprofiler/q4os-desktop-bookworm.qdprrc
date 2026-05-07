@@ -109,7 +109,7 @@ packages_base_xfce=xfce4 xfce4-whiskermenu-plugin policykit-1-gnome network-mana
 packages_base_lxde=lxde network-manager-gnome
 packages_base_mate=mate-desktop-environment-core mate-desktop-environment-extras network-manager-gnome
 
-packages_base_budgie=q4os-desktop-budgie
+packages_base_budgie=q4os-desktop-budgie \
  gnome-system-monitor \
  gnome-disk-utility \
  gnome-software \
