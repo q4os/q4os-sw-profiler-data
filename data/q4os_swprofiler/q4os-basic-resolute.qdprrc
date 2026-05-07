@@ -94,8 +94,8 @@ packages_base_trinity=q4os-desktop-trinity q4os-wallpapers \
 packages_base_plasma=q4os-desktop-plasma dolphin kwrite \
  pinentry-qt print-manager sweeper kde-spectacle kmag ark kcalc debconf-kde-helper \
  plasma-thunderbolt kamera kio-audiocd qt5-image-formats-plugins \
- kde-config-gtk-style-preview kde-config-updates kdenetwork-filesharing
-
+ kde-config-gtk-style-preview kde-config-updates kdenetwork-filesharing \
+ plasma-discover
 
 
 
