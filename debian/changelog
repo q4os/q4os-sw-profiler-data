@@ -6,8 +6,9 @@ q4os-sw-profiler-data (4.30.1-a1) UNRELEASED; urgency=medium
   * Disable wireless-tools for Resolute
   * Disable wireless-tools package for Forky as obsolete
   * Workaround - Plasma panel still shows discover shortcut, check and fix proper way later
+  * Fix new line separator
 
- -- Q4OS Team <devteam@q4os.org>  Thu, 07 May 2026 12:33:36 +0200
+ -- Q4OS Team <devteam@q4os.org>  Thu, 07 May 2026 15:09:33 +0200
 
 q4os-sw-profiler-data (4.29.1-a1) UNRELEASED; urgency=medium
 
