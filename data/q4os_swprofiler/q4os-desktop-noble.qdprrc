@@ -52,7 +52,7 @@ packages_base= \
  gtk2-engines read-edid vdpauinfo clinfo \
  ffmpeg irqbalance acpitool \
  fonts-ubuntu haveged diffutils e2fsprogs findutils \
- p7zip-full keyboard-configuration lame alsa-base ubuntu-drivers-common \
+ 7zip keyboard-configuration lame alsa-base ubuntu-drivers-common \
  language-pack-##subst_lcode## language-pack-##subst_lcode##-base \
  mokutil ncurses-base ncurses-bin os-prober policykit-desktop-privileges \
  plocate pciutils poppler-data python3-nacl python3-pymacaroons \
