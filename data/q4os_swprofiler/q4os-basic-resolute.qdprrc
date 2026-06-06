@@ -75,7 +75,7 @@ packages_base= \
 
 
 packages_laptop=tdepowersave-trinity::all::trinity
-packages_crypt=keyutils cryptsetup cryptsetup-bin cryptsetup-initramfs
+packages_crypt=keyutils cryptsetup cryptsetup-bin ::disable__cryptsetup-initramfs systemd-cryptsetup
 packages_qemuguest=qemu-guest-agent::amd64,i386
 
 packages_base_trinity=q4os-desktop-trinity q4os-wallpapers \
