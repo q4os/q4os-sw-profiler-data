@@ -37,7 +37,7 @@ packages_base= \
  iswedish::all::all::sv wswedish::all::all::sv \
  ifrench::all::all::fr wfrench::all::all::fr \
  fonts-thai-tlwg::all::all::th \
- fonts-indic::all::all::bn,gu,pa,kn,ml,or,ta.te \
+ fonts-indic::all::all::bn,gu,pa,kn,ml,or,ta,te \
  fonts-noto-cjk::all::all::ja,zh,ko,th,ar,he \
  fonts-dejavu \
  fcitx5::all::all::ja,zh,ko fcitx5-hangul::all::all::ko fcitx5-mozc::all::all::ja \
@@ -67,7 +67,7 @@ packages_base= \
  qbittorrent::all::[!]plasma \
  aisleriot strawberry::all::[!]trinity ::disable__smtube synaptic::all::[!]plasma \
  smplayer-extq mpv \
- q4os-libreoffice libreoffice-l10n-##subst_lcode## libreoffice-help-##subst_lcode## \
+ libreoffice-extq libreoffice-l10n-##subst_lcode## libreoffice-help-##subst_lcode## \
  q4os-thunderbird thunderbird-l10n-##subst_lcode## \
  q4os-chromium \
  q4os-imager
@@ -90,7 +90,7 @@ packages_base_trinity=q4os-desktop-trinity q4os-wallpapers \
  kcharselect-trinity system-config-printer amarok-trinity \
  dolphin-trinity gwenview-trinity gwenview-i18n-trinity kmines-trinity kbounce-trinity kolourpaint-trinity \
  pavucontrol-qt k3b-trinity kpdf-trinity \
- q4os-updater q4os-synaptic-trinity
+ q4os-updater q4os-updater-trinity q4os-synaptic-trinity
 packages_base_plasma=q4os-desktop-plasma dolphin kwrite \
  pinentry-qt print-manager sweeper kde-spectacle kmag ark kcalc debconf-kde-helper \
  plasma-thunderbolt kamera \
